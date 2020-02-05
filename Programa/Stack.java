@@ -12,18 +12,14 @@ import java.util.ArrayList;
 
 public class Stack<E> implements iStack<E>{
 	protected ArrayList<E> expresion = new ArrayList<E>();
-
-	/**
-	 * @param dato  Dato a agregar
-	 */
+	
 	public void push(E dato){
-		//post: Se agrega un dato al final del vector
+		
 		expresion.add(dato);
 	}
 
 	public E pop(){
-		//pre: El tamaño del vector debe de ser mayor a cero
-		//post: Se elimina el último dato agregado al vector
+
 		if (size() > 0) {
 			return expresion.remove(size()-1);
 		} else {
@@ -32,8 +28,7 @@ public class Stack<E> implements iStack<E>{
 	}
 
 	public E peek(){
-		//pre: El tamaño del vector debe de ser mayor a cero
-		//post: Se obtiene el último dato agregado a la lista
+
 		if (size() > 0) {
 			return expresion.get(size()-1);
 		} else {
@@ -42,12 +37,12 @@ public class Stack<E> implements iStack<E>{
 	}
 
 	public int size(){
-		//post: Se obtiene el tamaño de la lista
+
 		return expresion.size();
 	}
 
 	public boolean empty(){
-		//post: Valor verdadero si la lista está vacía
+
 		if (size() == 0) {
 			return true;
 		} else {

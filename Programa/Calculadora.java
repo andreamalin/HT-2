@@ -10,31 +10,23 @@
 **********************************************************/
 public class Calculadora implements iCalculadora{
 	/**
-	 * @param operando1		Primer numero a sumar/restar/dividir/multiplicar
-	 * @param operando2     Segundo numero a sumar/restar/dividir/multiplicar
+	 * @param operando1		Segundo numero a sumar/restar/dividir/multiplicar
+	 * @param operando2     Primer numero a sumar/restar/dividir/multiplicar
 	*/
 	
-	public int sumar(int operando1, int operando2){
-		//pre: dos operandos
-		//post: retorna la suma de dos enteros
-		return operando1+operando2;
+	public int sumar(int operando2, int operando1){
+		return operando2+operando1;
 	}
 
-	public int restar(int operando1, int operando2){
-		//pre: dos operandos
-		//post: retorna la resta de dos enteros
-		return operando1-operando2;
+	public int restar(int operando2, int operando1){
+		return operando2-operando1;
 	}
 
-	public int dividir(int operando1, int operando2){
-		//pre: dos operandos
-		//post: retorna la división de dos enteros
-		return operando1/operando2;
+	public int dividir(int operando2, int operando1){
+		return operando2/operando1;
 	}
 
-	public int multiplicar(int operando1, int operando2){
-		//pre: dos operandos
-		//post: retorna la multiplicación de dos enteros
-		return operando1*operando2;
+	public int multiplicar(int operando2, int operando1){
+		return operando2*operando1;
 	}
 }
