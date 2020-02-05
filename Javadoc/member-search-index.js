@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"<Unnamed>","c":"iCalculadora","l":"dividir(int, int)","url":"dividir(int,int)"},{"p":"<Unnamed>","c":"iCalculadora","l":"multiplicar(int, int)","url":"multiplicar(int,int)"},{"p":"<Unnamed>","c":"iCalculadora","l":"restar(int, int)","url":"restar(int,int)"},{"p":"<Unnamed>","c":"iCalculadora","l":"sumar(int, int)","url":"sumar(int,int)"}]
