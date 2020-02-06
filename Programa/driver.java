@@ -1,3 +1,13 @@
+/**********************************************************
+*driver.java			Fecha de creaciÃ³n: 01/01/2020
+*							Ãšltima fecha de modificaciÃ³n: 
+*							
+*Main (lectura de texto y definir operando)
+*
+*@author Andrea Amaya #19357
+*@author Carlos Raxtum #19721
+**********************************************************/
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileNotFoundException;
