@@ -6,7 +6,7 @@
 *la calculadora
 *
 *@author Andrea Amaya #19357
-*@author Carlos 
+*@author Carlos Raxtum #19721
 **********************************************************/
 public interface iCalculadora{
 
