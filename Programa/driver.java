@@ -27,19 +27,19 @@ public class driver {
 	                    case "-":
 	                    	 a = list.pop();
 						     b = list.pop();
-						     valor = String.valueOf(Integer.valueOf(a)+Integer.valueOf(b));	
+						     valor = String.valueOf(Integer.valueOf(a)-Integer.valueOf(b));	
 						     list.push(valor);
 	                        break;
 	                    case "*":
 	                    	a = list.pop();
 					        b = list.pop();
-					        valor = String.valueOf(Integer.valueOf(a)+Integer.valueOf(b));	
+					        valor = String.valueOf(Integer.valueOf(a)*Integer.valueOf(b));	
 					        list.push(valor);
 	                        break;
 	                    case "/":
 	                    	 a = list.pop();
 						     b = list.pop();
-						     valor = String.valueOf(Integer.valueOf(a)+Integer.valueOf(b));	
+						     valor = String.valueOf(Integer.valueOf(a)/Integer.valueOf(b));	
 						     list.push(valor);
 	                        break;
 	                    default:
