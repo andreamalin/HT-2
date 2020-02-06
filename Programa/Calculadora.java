@@ -23,7 +23,11 @@ public class Calculadora implements iCalculadora{
 	}
 
 	public int dividir(int operando2, int operando1){
-		return operando2/operando1;
+		if (operando1==0) {
+			return -1; //Error
+		} else {
+			return operando2/operando1;
+		}
 	}
 
 	public int multiplicar(int operando2, int operando1){
