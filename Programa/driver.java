@@ -45,7 +45,7 @@ public class driver {
 
 			} catch (Exception e){
 				//No hay suficientes operandos
-				if (stack.size() > 2) {
+				if (stack.size() >= 2) {
 					//Se jalan los dos últimos operandos del stack
 					operando2 = stack.pop();
 					operando1 = stack.pop();
